@@ -1,7 +1,7 @@
 package detection
 
 import (
-	"SandMan/shared"
+	"github.com/sha-420/SandMan/shared"
 	"bytes"
 	"fmt"
 	"io/ioutil"
