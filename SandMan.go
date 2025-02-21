@@ -1,7 +1,7 @@
 package SandMan
 
 import (
-	"SandMan/detection"
+	"github.com/sha-420/SandMan/detection"
 	"fmt"
 )
 
