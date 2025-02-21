@@ -1,4 +1,4 @@
-module SandMan
+module github.com/sha-420/SandMan
 
 go 1.17
 
