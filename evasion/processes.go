@@ -1,7 +1,7 @@
 package evasion
 
 import (
-	"SandMan/shared"
+	"github.com/sha-420/SandMan/shared"
 
 	ps "github.com/mitchellh/go-ps"
 )
