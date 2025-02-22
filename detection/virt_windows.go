@@ -20,19 +20,16 @@ func VirtualMachineScore() int {
 
 	regHits := checkRegistryKeys()
 	if regHits > 0 {
-		fmt.Println("Reg Score:", regHits)
 		score = score + regHits*5
 	}
 
 	vendorHits := checkRegistryVendors()
 	if vendorHits > 0 {
-		fmt.Println("Vendor Score:", vendorHits)
 		score = score + vendorHits*5
 	}
 
 	fsHits := checkFileSystem()
 	if fsHits > 0 {
-		fmt.Println("FS Score", fsHits)
 		score = score + fsHits*5
 	}
 
